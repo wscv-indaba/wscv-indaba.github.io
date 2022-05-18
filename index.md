@@ -39,8 +39,8 @@ The tentative program is:
 | 14:10 | Invited talk 1 (50 min) |
 | 15:00 | Invited talk 2 (30 min) |
 | 15:30 | Invited talk 3 (30 min) |
-| 16:00 | coffee break   (20 min) |
-| 16:20 | Poster session (40 min) |
+| 16:00 | coffee break   (10 min) |
+| 16:10 | Poster session (50 min) |
 | 17:00 | Invited talk 4 (30 min) |
 | 17:30 | Invited talk 5 (30 min) |
 | 18:00 | End of the workshop |
