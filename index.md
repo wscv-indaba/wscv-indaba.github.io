@@ -12,13 +12,13 @@ layout: default
 # Overview
 <div style="text-align: justify">
 This workshop will focus on computer vision algorithms using less labels and/or less data. 
-Classically, machine learning relies on abundant annotated data. This is prone to cultural biases, since datasets are commonly recorded in western countries,  as well as distribution biais due to rare events, such as adverse weather/lighting conditions rarely included in datasets.
+Classically, machine learning relies on abundant annotated data. This is prone to cultural biases, since datasets are commonly recorded in western countries,  as well as distribution biais due to rare events, such as adverse weather/lighting conditions which are rarely included in public datasets.<br>
 
-We will showcase recent researches on alternative strategies to reduce the need of labels (e.g., domain adaptation, domain generalization) or the need of data (few-/zero-shot learning, continual learning). Other strategies like self-supervised learning (cross modal, model-based), continual learning, etc. will be introduced. 
+Speakers of this workshop will showcase recent researches on alternative strategies to reduce the need of labels (e.g., domain adaptation, domain generalization) or the need of data (e.g., few-/zero-shot learning, continual learning). Alternately, other strategies that rely on accessible priors will be presented, like self-supervised, cross modal, or model-based learning. The applications will focus, but not be limited to, autonomous driving and robotics.
 <br><br>
 
-<b>The workshop will have a poster session for selected works. Relevant original and/or published works are welcome.<br>
-Deadline for submissions is July 10th 2022 (<a href="#call-for-papers">call for paper</a>).</b>
+<b>The workshop will have a poster session for selected works. Relevant original and/or published articles are welcome.<br>
+Deadline for submissions is July 10th 2022 (see <a href="#call-for-papers">call for paper</a>).</b>
 </div>
 
 # Invited Speakers
@@ -106,11 +106,11 @@ The tentative program is:
 ## Call for Papers
 
 <div style="text-align: justify">
-To foster interactions and boost your visibility, we welcome submissions of any work related to computer vision (not limited to weakly supervised), to be presented at the poster session. 
-Original articles as well as previously published works can be submitted.<br>
+To foster interactions, we welcome submissions of any work related to computer vision (not limited to weakly supervised), for presentation at the poster session. 
+Original articles as well as previously published ones can be submitted.<br>
 <br>
-<b>Submission deadline is July 10th (11:59pm AOE). Details will be added here.</b><br>
-Selection of relevant papers (of at least 4 pages) will be done by the organization board, for presentation at the poster session.<br>
+<b>Deadline is July 10th (11:59pm AOE). Submission details will be added here.</b><br>
+The selection of relevant papers (of at least 4 pages) will be done by the organization board, for presentation at the poster session.<br>
 <br>
 The topics of interest include, but are not limited to:
 
@@ -132,5 +132,5 @@ The topics of interest include, but are not limited to:
 
 ## Important workshop dates
 - Submission deadline: <strong>July 10, 2022 (11:59pm AOE).</strong>
-- Decision notification: <strong>July 20, 2022.</strong>
+- Decision notification: <strong>July 25, 2022.</strong>
 - Workshop date: <strong>August 25, 2022.</strong>
