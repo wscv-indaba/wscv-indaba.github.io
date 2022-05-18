@@ -36,12 +36,12 @@ The tentative program is:
 | Time (CET) | Event |
 | ----- | ----- |
 | 14:00 | Opening remarks (10 min) |
-| 14:10 | Invited talk 1 (40 min) |
-| 14:50 | Invited talk 2 (30 min) |
-| 15:20 | Invited talk 3 (30 min) |
-| 15:50 | coffee break   (10 min) |
+| 14:10 | Invited talk 1 (50 min) |
+| 15:00 | Invited talk 2 (30 min) |
+| 15:30 | Invited talk 3 (30 min) |
+| 16:00 | coffee break   (10 min) |
 | 16:00 | Poster session (50 min) |
-| 16:50 | Invited talk 4 (40 min) |
+| 17:00 | Invited talk 4 (30 min) |
 | 17:30 | Invited talk 5 (30 min) |
 | 18:00 | End of the workshop |
 
