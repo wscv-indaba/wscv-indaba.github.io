@@ -114,6 +114,8 @@ The tentative program is:
 
 ## Call for Papers
 
+
+
 <div style="text-align: justify">
 To foster interactions, we welcome submissions of any work related to computer vision (not limited to weakly supervised), for presentation at the poster session. 
 Original articles as well as previously published ones can be submitted.<br>
@@ -138,7 +140,7 @@ The topics of interest include, but are not limited to:
     <li>Multi-modal vision (image+text, image+sound, etc.)</li>
   </ol>
 </div>
-
+<a href="https://drive.google.com/file/d/1ktqInynvEBldBYn-bg9SfZXjU5EWb-L7/view?usp=sharing" target="_blank">PDF version</a>
 ## Important workshop dates
 - Submission deadline: <strong>July 10, 2022 (11:59pm AOE).</strong>
 - Decision notification: <strong>July 25, 2022.</strong>
