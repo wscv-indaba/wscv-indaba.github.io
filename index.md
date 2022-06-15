@@ -11,7 +11,7 @@ layout: default
 
 # Overview
 <div style="text-align: justify">
-This workshop will focus on computer vision algorithms using less labels and/or less data. 
+  In the context of the 2022 Deep Learning Indaba this half-day workshop will focus on computer vision algorithms using less labels and/or less data. 
 Classically, machine learning relies on abundant annotated data. This is prone to cultural biases, since datasets are commonly recorded in western countries,  as well as distribution biais due to rare events, such as adverse weather/lighting conditions which are rarely included in public datasets.<br>
 
 Speakers of this workshop will showcase recent researches on alternative strategies to reduce the need of labels (e.g., domain adaptation, domain generalization) or the need of data (e.g., few-/zero-shot learning, continual learning). Alternately, other strategies that rely on accessible priors will be presented, like self-supervised, cross modal, or model-based learning. The applications will focus, but not be limited to, autonomous driving and robotics.
@@ -117,7 +117,7 @@ The tentative program is:
 
 
 <div style="text-align: justify">
-To foster interactions, we welcome submissions of any work related to computer vision (not limited to weakly supervised), for presentation at the poster session. 
+To foster interactions, attendees of the 2022 Deep Learning Indaba are invited to submit of any work related to computer vision (not limited to weakly supervised), for presentation at the poster session. 
 Original articles as well as previously published ones can be submitted.<br>
 <br>
 <b>Deadline is July 10th (11:59pm AOE). Submission details will be added here.</b><br>
