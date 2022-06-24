@@ -22,11 +22,60 @@ Deadline for submissions is July 10th 2022 (see <a href="#call-for-papers">call 
 </div>
 
 # Invited Speakers
-<div style="/*display: flex*/">
-  TBA.<br>
-  We're preparing a great set of speakers. <b>Stay tuned for updates.</b>
-</div>
+<div style="display: flex">
+  <div style="width:22.5%; text-align: center;">
+    <a href="http://webia.lip6.fr/~cord/" target="_blank">
+    <img alt="Matthieu Cord" src="pics/matthieu_cord.jpg" style ="border-radius: 50%; object-fit: cover; width = 100%; aspect-ratio: 1;">
+    <br>
+    Matthieu Cord</a><br>
+    Sorbonne Uni / Valeo.ai
+  </div>
+  
+  <div style="width:2.5%">
+  </div>
 
+  <div style="width:22.5%; text-align: center;">
+    <a href="https://scholar.google.fr/citations?user=PXm1lPAAAAAJ" target="_blank">
+    <img alt="Gabriela Csurka" src="pics/gabriela_csurka.jpg" style ="border-radius: 50%; object-fit: cover; width = 100%; aspect-ratio: 1;">
+    <br>
+    Gabriela Csurka</a><br>
+    Naver Labs Europe
+  </div>
+  
+  <div style="width:2.5%">
+  </div>
+
+  <div style="width:22.5%; text-align: center;">
+    <a href="https://sites.google.com/site/sileyeoba/" target="_blank">
+    <img alt="Sileye Ba" src="pics/sileye_ba.png" style ="border-radius: 50%; object-fit: cover; width = 100%; aspect-ratio: 1;">
+    <br>
+    Sileye Ba</a><br>
+    L'Oréal
+  </div>
+  
+  <div style="width:2.5%">
+  </div>
+
+  <div style="width:22.5%; text-align: center;">
+    <a href="https://fcdl94.github.io/" target="_blank">
+    <img alt="Fabio Cermelli" src="pics/fabio_cermelli.jpg" style ="border-radius: 50%; object-fit: cover; width = 100%; aspect-ratio: 1;">
+    <br>
+    Fabio Cermelli</a><br>
+    Politecnico di Torino
+  </div>
+  
+  <div style="width:2.5%">
+  </div>
+
+  <div style="width:22.5%; text-align: center;">
+    <a href="https://umbertomichieli.github.io/" target="_blank">
+    <img alt="Umberto Michieli" src="pics/umberto_michieli.jpg" style ="border-radius: 50%; object-fit: cover; width = 100%; aspect-ratio: 1;">
+    <br>
+    Umberto Michieli</a><br>
+    Samsung Research
+  </div>
+</div>
+We're still brewing the best flavored speakers list. Stay tuned.
 
 ## Program
 The workshop will be half-day on 25/08 (2pm-6pm).
@@ -48,7 +97,7 @@ The tentative program is:
 
 ## Organizers
 <div style="display: flex">
-  <div style="width:22.5%">
+  <div style="width:22.5%; text-align: center;">
     <a href="https://team.inria.fr/rits/membres/raoul-de-charette/">
     <img alt="Raoul de Charette" src="pics/raoul_de-charette.png" style ="border-radius: 50%; object-fit: cover; width = 100%; aspect-ratio: 1;">
     <br>
@@ -59,7 +108,7 @@ The tentative program is:
   <div style="width:2.5%">
   </div>
 
-  <div style="width:22.5%">
+  <div style="width:22.5%; text-align: center;">
     <a href="https://fabvio.github.io/">
     <img alt="Fabio Pizzati" src="pics/fabio_pizzati.png" style ="border-radius: 50%; object-fit: cover; width = 100%; aspect-ratio: 1;">
     <br>
@@ -70,7 +119,7 @@ The tentative program is:
   <div style="width:2.5%">
   </div>
 
-  <div style="width:22.5%">
+  <div style="width:22.5%; text-align: center;">
     <a href="https://ptrckprz.github.io/">
     <img alt="Patrick Pérez" src="pics/patrick_perez.jpg" style ="border-radius: 50%; object-fit: cover; width = 100%; aspect-ratio: 1;">
     <br>
@@ -81,7 +130,7 @@ The tentative program is:
   <div style="width:2.5%">
   </div>
 
-  <div style="width:22.5%">
+  <div style="width:22.5%; text-align: center;">
     <a href="https://tuanhungvu.github.io/">
     <img alt="Tuan-Hung Vu" src="pics/tuan-hung_vu.jpg" style ="border-radius: 50%; object-fit: cover; width = 100%; aspect-ratio: 1;">
     <br>
@@ -90,7 +139,7 @@ The tentative program is:
   </div>
 </div>
 <div style="display: flex">  
-  <div style="width:22.5%">
+  <div style="width:22.5%; text-align: center;">
     <a href="https://abursuc.github.io/">
     <img alt="Andrei Bursuc" src="pics/andrei_bursuc.jpg" style ="border-radius: 50%; object-fit: cover; width = 100%; aspect-ratio: 1;">
     <br>
@@ -101,7 +150,7 @@ The tentative program is:
   <div style="width:2.5%">
   </div>
 
-  <div style="width:22.5%">
+  <div style="width:22.5%; text-align: center;">
     <a href="https://mancinimassimiliano.github.io/">
     <img alt="Massimiliano Mancini" src="pics/massimiliano_mancini.jpg" style ="border-radius: 50%; object-fit: cover; width = 100%; aspect-ratio: 1;">
     <br>
