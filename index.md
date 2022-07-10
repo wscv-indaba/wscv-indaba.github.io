@@ -58,7 +58,7 @@ Submission website is open <a href="https://cmt3.research.microsoft.com/WSCV2022
   
   <div style="width:2.5%">
   </div>
-
+  
   <div style="width:22.5%; text-align: center;">
     <a href="https://fcdl94.github.io/" target="_blank">
     <img alt="Fabio Cermelli" src="pics/fabio_cermelli.jpg" style ="border-radius: 50%; object-fit: cover; width = 100%; aspect-ratio: 1;">
@@ -66,10 +66,8 @@ Submission website is open <a href="https://cmt3.research.microsoft.com/WSCV2022
     Fabio Cermelli</a><br>
     Politecnico di Torino
   </div>
-  
-  <div style="width:2.5%">
-  </div>
-
+</div>
+<div style="display: flex">
   <div style="width:22.5%; text-align: center;">
     <a href="https://umbertomichieli.github.io/" target="_blank">
     <img alt="Umberto Michieli" src="pics/umberto_michieli.jpg" style ="border-radius: 50%; object-fit: cover; width = 100%; aspect-ratio: 1;">
@@ -77,8 +75,18 @@ Submission website is open <a href="https://cmt3.research.microsoft.com/WSCV2022
     Umberto Michieli</a><br>
     Samsung Research
   </div>
+  
+  <div style="width:2.5%">
+  </div>
+
+  <div style="width:22.5%; text-align: center;">
+    <a href="https://mysite.ku.edu.tr/fguney/" target="_blank">
+    <img alt="Fatma G&uuml;ney" src="pics/fatma_guney.jpg" style ="border-radius: 50%; object-fit: cover; width = 100%; aspect-ratio: 1;">
+    <br>
+    Fatma G&uuml;ney</a><br>
+    Koç University
+  </div>
 </div>
-We're still brewing the best flavored speakers list. Stay tuned.
 
 ## Program
 The workshop will be half-day on 25/08 (2pm-6pm).
