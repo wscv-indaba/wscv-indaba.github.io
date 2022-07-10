@@ -207,7 +207,10 @@ The topics of interest include, but are not limited to:
   </ol>
 </div>
 <a href="https://drive.google.com/file/d/1ktqInynvEBldBYn-bg9SfZXjU5EWb-L7/view?usp=sharing" target="_blank">PDF version</a>
+
 ## Important workshop dates
 - Submission deadline: <span style="text-decoration: line-through; font-weight: normal;">July 10, 2022</span> <strong>Extended to July 20, 2022 (11:59pm AOE).</strong>
 - Decision notification: <strong>August 4th, 2022.</strong>
-- Workshop date: <strong>August 25, 2022.</strong>
+- Workshop date: <strong>August 25, 2022.</strong><br>
+
+Any questions ? Contact <a href="https://team.inria.fr/rits/membres/raoul-de-charette/">Raoul de Charette</a>.
