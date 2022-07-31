@@ -19,9 +19,8 @@ Speakers of this workshop will showcase recent researches on alternative strateg
 
 <b>The workshop will have a poster session for selected works. Relevant original and/or published articles are welcome. See details in <a href="#call-for-papers">call for paper</a>.<br> 
 <span style="color: red;">
-News (20/07): Last deadline extension !<br>
-News (10/07): Deadline is extended !<br>
-Submission website is open <a href="https://cmt3.research.microsoft.com/WSCV2022/" target="_blank">here</a> (deadline is <span style="text-decoration: line-through; font-weight: normal;">July 10<sup>th</sup></span> July 31<sup>st</sup>)<br></span>
+News (31/07): Last deadline extension !<br>
+Submission website is open <a href="https://cmt3.research.microsoft.com/WSCV2022/" target="_blank">here</a> (deadline is extended to August 7<sup>th</sup>)<br></span>
 </b>
 </div>
 
@@ -185,7 +184,7 @@ To foster interactions, attendees of the 2022 Deep Learning Indaba are invited t
 Original articles as well as previously published ones can be submitted.<br>
 <br>
 <span style="color:  red;">Please submit pdf of your work on CMT: <a href="https://cmt3.research.microsoft.com/WSCV2022/" target="_blank">https://cmt3.research.microsoft.com/WSCV2022/</a><br>
-<b>Deadline is <span style="text-decoration: line-through; font-weight: normal;">July 10th</span> July 31<sup>st</sup> (11:59pm AOE).</b></span><br>
+<b>Deadline is extended to August 7<sup>th</sup> (11:59pm AOE).</b></span><br>
 
 <br>
 The selection of relevant papers (of at least 4 pages) will be done by the organization board, for presentation at the poster session.<br>
@@ -210,8 +209,8 @@ The topics of interest include, but are not limited to:
 <a href="https://drive.google.com/file/d/1ktqInynvEBldBYn-bg9SfZXjU5EWb-L7/view?usp=sharing" target="_blank">PDF version</a>
 
 ## Important workshop dates
-- Submission deadline: <span style="text-decoration: line-through; font-weight: normal;">July 10, 2022. Extended to July 20, 2022</span> <strong>Last extension to July 31<sup>st</sup>, 2022 (11:59pm AOE).</strong>
-- Decision notification: <strong>August 4th, 2022.</strong>
+- Submission deadline: <span style="text-decoration: line-through; font-weight: normal;">July 10, 2022.</span> <strong>Last extension to August 7<sup>th</sup>, 2022 (11:59pm AOE).</strong>
+- Decision notification: <strong><span style="text-decoration: line-through; font-weight: normal;">August 4th, 2022</span> August 11th, 2022.</strong>
 - Workshop date: <strong>August 25, 2022.</strong><br>
 
 Any questions ? Contact <a href="https://team.inria.fr/rits/membres/raoul-de-charette/">Raoul de Charette</a>.
