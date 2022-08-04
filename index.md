@@ -23,7 +23,7 @@ Speakers will present alternative strategies to reduce the need of labels (e.g.,
 <span style="color: red;">
 News (31/07): Last deadline extension !<br>
 Submission website is open <a href="https://cmt3.research.microsoft.com/WSCV2022/" target="_blank">here</a> (deadline is extended to August 7<sup>th</sup>)</span></b><br>
-<em>Remote access details will added here close to the event.</em><br>
+<em>Remote access details will be added here close to the event.</em><br>
 </div>
 
 # Invited Speakers
@@ -93,7 +93,7 @@ Submission website is open <a href="https://cmt3.research.microsoft.com/WSCV2022
 ## Program
 The hybrid workshop will be half-day on 25/08 (2pm-6pm CET).<br>
 The program will be published soon.<br><br>
-<em>Remote access details will added here close to the event.</em>
+<em>Remote access details will be added here close to the event.</em>
 
 <!--
 :
