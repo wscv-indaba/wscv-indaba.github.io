@@ -11,17 +11,19 @@ layout: default
 
 # Overview
 <div style="text-align: justify">
-  In the context of the 2022 Deep Learning Indaba this workshop will focus on computer vision algorithms using less labels and/or less data. 
+  In the context of the 2022 Deep Learning Indaba this hybrid workshop will focus on computer vision algorithms using less labels and/or less data. 
 Classically, machine learning relies on abundant annotated data. This is prone to cultural biases, since datasets are commonly recorded in western countries,  as well as distribution biais due to rare events, such as adverse weather/lighting conditions which are rarely included in public datasets.<br>
 
-Speakers of this workshop will showcase recent researches on alternative strategies to reduce the need of labels (e.g., domain adaptation, domain generalization) or the need of data (e.g., few-/zero-shot learning, continual learning). Alternately, other strategies that rely on accessible priors will be presented, like self-supervised, cross modal, or model-based learning. The applications will focus, but not be limited to, autonomous driving and robotics.
-<br><br>
+Speakers will present alternative strategies to reduce the need of labels (e.g., domain adaptation, domain generalization) or the need of data (e.g., few-/zero-shot learning, continual learning). Other strategies that rely on accessible priors will be presented, like self-supervised, cross modal, or model-based learning. The applications will focus, but not be limited to, autonomous driving and robotics.
+<br>
+<br>
 
-<b>The workshop will have a poster session for selected works. Relevant original and/or published articles are welcome. See details in <a href="#call-for-papers">call for paper</a>.<br> 
+
+<b>The hybrid workshop will have a poster session for selected works. Relevant original and/or published articles are welcome. See details in <a href="#call-for-papers">call for paper</a>.<br> 
 <span style="color: red;">
 News (31/07): Last deadline extension !<br>
-Submission website is open <a href="https://cmt3.research.microsoft.com/WSCV2022/" target="_blank">here</a> (deadline is extended to August 7<sup>th</sup>)<br></span>
-</b>
+Submission website is open <a href="https://cmt3.research.microsoft.com/WSCV2022/" target="_blank">here</a> (deadline is extended to August 7<sup>th</sup>)</span></b><br>
+<em>Remote access details will added here close to the event.</em><br>
 </div>
 
 # Invited Speakers
@@ -89,9 +91,9 @@ Submission website is open <a href="https://cmt3.research.microsoft.com/WSCV2022
 </div>
 
 ## Program
-The workshop will be half-day on 25/08 (2pm-6pm).
-
-The program will be published soon.
+The hybrid workshop will be half-day on 25/08 (2pm-6pm CET).<br>
+The program will be published soon.<br><br>
+<em>Remote access details will added here close to the event.</em>
 
 <!--
 :
