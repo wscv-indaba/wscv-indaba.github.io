@@ -7,7 +7,76 @@ layout: default
   margin-left: auto;
   margin-right: auto;
   width: 75%;
-} </style>
+}
+.program>.entry{
+  display: flex;
+  padding-bottom: 2pt;
+  padding-top: 2pt;
+}
+.program>.entry.start,.program>.entry.end{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.program>.entry.start{
+  border-bottom: 1px solid rgb(127, 127, 127);
+}
+.program>.entry.end{
+  border-top: 1px solid rgb(127, 127, 127);
+}
+.program>.entry.poster{
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 15px;
+    background-color: rgb(220, 220, 220);
+    margin-top: 8pt;
+    margin-bottom: 8pt;
+}
+.program>.entry.poster .title{
+  display: inline;
+}
+.program>.entry.poster .papers{
+  list-style: decimal;
+  margin-top: 5pt;
+}
+.program>.entry.poster .papers>li>.title{
+  font-weight: bold;
+}
+.program>.entry.poster .papers>li>.authors{
+  font-style: italic;
+}
+.program>.entry>.speaker{
+  width:10%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  float: left;
+  text-align: center;
+}
+.program>.entry>.speaker img{
+  border-radius: 50%;
+  object-fit: cover;
+  width: 100%;
+  aspect-ratio: 1;
+}
+.program>.entry>.details{
+  width:85%;
+  font-size: 12pt;
+}
+.program>.entry .time{
+  display: inline;
+  font-weight: bold;
+}
+.program>.entry>.details>.title{
+  font-size: 13pt;
+  font-weight: bold;
+}
+.program>.entry>.details>.abstract {
+  display: none;
+  border-radius: 5px;
+  background-color: rgb(229, 229, 229);
+  padding: 8pt;
+  font-size: 11pt;
+}
+</style>
 
 # Overview
 <div style="text-align: justify">
@@ -91,10 +160,123 @@ Submission website is open <a href="https://cmt3.research.microsoft.com/WSCV2022
 </div>
 
 ## Program
-The hybrid workshop will be half-day on 25/08 (2pm-6pm CET).<br>
-The program will be published soon.<br><br>
+The hybrid workshop will be half-day on 25/08.<br>
+<!-- The program will be published soon.<br><br> -->
 <em>Remote access details will be added here close to the event.</em>
 
+<div class="program">
+<div class="entry start">
+  <div class="time">2:00pm</div> - <b>Workshop start</b>
+</div>
+<div class="entry">
+  <div class="speaker">
+    <a href="http://webia.lip6.fr/~cord/" target="_blank">
+    <img alt="Matthieu Cord" src="pics/matthieu_cord.jpg">
+    <br>
+    </a>
+  </div>
+  <div class="details">
+    <div class="time">2:00pm</div> - <a href="http://webia.lip6.fr/~cord/" target="_blank">Matthieu Cord</a>, Sorbonne Uni / Valeo.ai<br>
+    <div class="title">Vision Transformers</div>
+    <a onclick="this.parentElement.getElementsByClassName('abstract')[0].style.display=this.parentElement.getElementsByClassName('abstract')[0].style.display!='block' ? 'block' : 'none';">[+] Abstract</a>
+    <div class="abstract">Originally proposed in natural language processing, transformers are attracting growing interest in computer vision, providing state-of-the-art results for tasks such as image classification or object detection.
+    In this talk, I present the underlying motivation and the basic architecture of Vision Transformers (ViT). I detail their difference with classical convolution -based architectures for classification, and more general framework for different tasks in computer vision. I also present ViT pre-training with large multimodal language and vision datasets, for downstream tasks with few or zero-shot supervision.
+    </div>
+  </div>
+</div>
+<div class="entry">
+  <div class="speaker">
+    <a href="https://umbertomichieli.github.io/" target="_blank">
+    <img alt="Umberto Michieli" src="pics/umberto_michieli.jpg">
+    <br>
+    </a>
+  </div>
+  <div class="details">
+    <div class="time">2:45pm</div> - <a href="https://umbertomichieli.github.io/" target="_blank">Umberto Michieli</a>, Samsung research<br>
+    <div class="title">Learning to Segment Images with Limited Data across Devices, Domains and Tasks</div>
+    <a onclick="this.parentElement.getElementsByClassName('abstract')[0].style.display=this.parentElement.getElementsByClassName('abstract')[0].style.display!='block' ? 'block' : 'none';">[+] Abstract</a>
+    <div class="abstract">Dense prediction tasks, such as semantic segmentation, are nowadays tackled with data-hungry deep learning architectures. However, oftentimes only limited data is available. In this talk, we argue the need for versatility of deep neural architectures from various perspectives.<br>
+    First, we discuss the federated learning (FL) paradigm to train deep architectures in a distributed setting with data available only at remote clients. We address non-i.i.d. distribution of samples among clients via 1) a naïve FL optimizer that is fair from the users' perspective, and 2) a prototype-guided FL optimizer that is evaluated also on FL segmentation benchmarks.<br>
+    Second, we briefly overview model adaptation to unseen visual domains with no ground truth annotations available and we discuss a recent synthetic dataset (SELMA) to aid the segmentation task on such domains.<br>
+    Finally, we empower deep models to recognize novel semantic concepts without forgetting previously learned ones. We investigate continual semantic segmentation via knowledge distillation, latent space regularization, and replay samples retrieved via weakly-supervised GANs or web-crawled images.
+    </div>
+  </div>
+</div>
+<div class="entry">
+  <div class="speaker">
+    <a href="https://sites.google.com/site/sileyeoba/" target="_blank">
+    <img alt="Sileye Ba" src="pics/sileye_ba.png">
+    <br>
+    </a>
+  </div>
+  <div class="details">
+    <div class="time">3:15pm</div> - <a href="https://sites.google.com/site/sileyeoba/" target="_blank">Sileye Ba</a>, L'Oréal<br>
+    <div class="title">TBA</div>
+<!--     <a onclick="this.parentElement.getElementsByClassName('abstract')[0].style.display=this.parentElement.getElementsByClassName('abstract')[0].style.display!='block' ? 'block' : 'none';">[+] Abstract</a>
+ -->    <div class="abstract"></div>
+  </div>
+</div>
+<div class="entry poster">
+  <div class="speaker">
+  </div>
+  <div class="details">
+    <div class="time">3:45pm</div>
+    <div class="title">- Poster session &amp; Coffee break</div><br>
+    <em>Accepted works will be announced soon.</em>
+<!--     <ul class="papers">
+      <li><span class="title">Deep convolutional networks</span>. <span class="authors">K. Louitor, M. Hurit, X. Hui.</span></li>
+    </ul>
+ -->  </div>
+</div>
+<div class="entry">
+  <div class="speaker">
+    <a href="https://scholar.google.fr/citations?user=PXm1lPAAAAAJ" target="_blank">
+    <img alt="Gabriela Csurka" src="pics/gabriela_csurka.jpg">
+    <br>
+    </a>
+  </div>
+  <div class="details">
+    <div class="time">4:30pm</div> - <a href="https://scholar.google.fr/citations?user=PXm1lPAAAAAJ" target="_blank">Gabriela Csurka</a>, Naver Labs Europe<br>
+    <div class="title">TBA</div>
+<!--     <a onclick="this.parentElement.getElementsByClassName('abstract')[0].style.display=this.parentElement.getElementsByClassName('abstract')[0].style.display!='block' ? 'block' : 'none';">[+] Abstract</a>
+ -->    <div class="abstract"></div>
+  </div>
+</div>
+<div class="entry">
+  <div class="speaker">
+    <a href="https://fcdl94.github.io/" target="_blank">
+    <img alt="Fabio Cermelli" src="pics/fabio_cermelli.jpg">
+    <br>
+    </a>
+  </div>
+  <div class="details">
+    <div class="time">5:15pm</div> - <a href="https://fcdl94.github.io/" target="_blank">Fabio Cermelli</a>, Politecnico di Torino<br>
+    <div class="title">Semantic Segmentation from Weakly and Partial Annotations</div>
+    <a onclick="this.parentElement.getElementsByClassName('abstract')[0].style.display=this.parentElement.getElementsByClassName('abstract')[0].style.display!='block' ? 'block' : 'none';">[+] Abstract</a>
+    <div class="abstract">Due to the rise of deep learning and the accessibility of big human-annotated datasets, tremendous progress has been made in the fundamental computer vision task of semantic segmentation. However, because each pixel of the image needs to have a label, annotations are quite expensive. As a result, the annotation cost hinders the applications of semantic segmentation in the real world. In the presentation, we outline ways that significantly lower the cost by utilizing less expensive and more readily available annotations.<br>
+We first look into the use of partial annotations, where labels are only given for specific areas of the image. We begin with an incremental learning application, where the objective is to expand a model to learn new classes without forgetting and without being given annotations for existing classes. We present a straightforward adjustment of the cross-entropy loss to deal with this situation. The proposed losses are then extended to the point-and-scribble supervised segmentation, where only a small portion of the image's pixels are annotated.<br>
+Finally, we show the scenario of not having any pixel-level information. The goal is to learn a segmentation model using cheap and widely available image-level labels, that only indicate the presence of an object in the image without providing any localization cue. We review the current state-of-the-art and illustrate the current solutions based on Class-Activation Maps. Then, extending these techniques, we introduce a framework that learns to segment new classes over time from image-level labels.
+</div>
+  </div>
+</div>
+<div class="entry">
+  <div class="speaker">
+    <a href="https://mysite.ku.edu.tr/fguney/" target="_blank">
+    <img alt="Fatma G&uuml;ney" src="pics/fatma_guney.jpg">
+    <br>
+    </a>
+  </div>
+  <div class="details">
+    <div class="time">5:45pm</div> - <a href="https://mysite.ku.edu.tr/fguney/" target="_blank">Fatma G&uuml;ney</a>, Koç University<br>
+    <div class="title">TBA</div>
+<!--     <a onclick="this.parentElement.getElementsByClassName('abstract')[0].style.display=this.parentElement.getElementsByClassName('abstract')[0].style.display!='block' ? 'block' : 'none';">[+] Abstract</a>
+ -->    <div class="abstract"></div>
+  </div>
+</div>
+<div class="entry end">
+  <div class="time">6:15pm</div> - <b>Workshop end</b>
+</div>
+</div>
 <!--
 :
 
