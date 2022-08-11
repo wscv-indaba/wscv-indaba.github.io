@@ -90,8 +90,8 @@ Speakers will present alternative strategies to reduce the need of labels (e.g.,
 
 <b>The hybrid workshop will have a poster session for selected works. Relevant original and/or published articles are welcome. See details in <a href="#call-for-papers">call for paper</a>.<br> 
 <span style="color: red;">
-News (31/07): Last deadline extension !<br>
-Submission website is open <a href="https://cmt3.research.microsoft.com/WSCV2022/" target="_blank">here</a> (deadline is extended to August 7<sup>th</sup>)</span></b><br>
+News (11/08): Poster selection is out !<br>
+Submission website is open <a href="https://cmt3.research.microsoft.com/WSCV2022/" target="_blank">here</a></span></b><br>
 <em>Remote access details will be added here close to the event.</em><br>
 </div>
 
@@ -222,11 +222,16 @@ The hybrid workshop will be half-day on 25/08.<br>
   <div class="details">
     <div class="time">3:45pm</div>
     <div class="title">- Poster session &amp; Coffee break</div><br>
-    <em>Accepted works will be announced soon.</em>
-<!--     <ul class="papers">
-      <li><span class="title">Deep convolutional networks</span>. <span class="authors">K. Louitor, M. Hurit, X. Hui.</span></li>
+    <ul class="papers">
+      <li><span class="title">Deep Learning Architecture For Brain Vessel Segmentation</span>. <span class="authors">K. Iddrisu.</span></li>
+      <li><span class="title">Single-modality and joint fusion deep learning for diabetic retinopathy diagnosis</span>. <span class="authors">K. El-ateif.</span></li>
+      <li><span class="title">Co-attention Mechanism with Multi-Modal Factorized Bilinear Pooling for Medical Image Question Answering</span>. <span class="authors">V.-S. Mfogo, J. Fadugba, X. Chen, G. Gkioxari.</span></li>
+      <li><span class="title">AFRIGAN: African Fashion Style Generator using Generative Adversarial Networks (GANs)</span>. <span class="authors">M.-M. Salami, W. Oyewusi, O. Adekanmbi.</span></li>
+      <li><span class="title">Sign-to-Speech Model for Sign Language Understanding: A Case Study of Nigerian Sign Language</span>. <span class="authors">S. Kolawole.</span></li>
+      <li><span class="title">ATLAS: Universal Function Approximator for Memory Retention</span>. <span class="authors">H. Van Deventer.</span></li>
+      <li><span class="title">Application of Artificial Intelligence (AI) and Collective Intelligence (CI) for Diagnosis of Breast Cancer</span>. <span class="authors">A. Jimoh, A. Adeniran, M. Klein.</span></li>
     </ul>
- -->  </div>
+  </div>
 </div>
 <div class="entry">
   <div class="speaker">
