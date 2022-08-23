@@ -76,6 +76,12 @@ layout: default
   padding: 8pt;
   font-size: 11pt;
 }
+.live {
+    text-align: center;
+    border: 3px solid rgb(250,0,0);
+    font-weight: bold;
+    border-radius: 20px;
+}
 </style>
 
 # Overview
@@ -88,11 +94,17 @@ Speakers will present alternative strategies to reduce the need of labels (e.g.,
 <br>
 
 
-<b>The hybrid workshop will have a poster session for selected works. Relevant original and/or published articles are welcome. See details in <a href="#call-for-papers">call for paper</a>.<br> 
-<span style="color: red;">
+<!-- <b>The hybrid workshop will have a poster session for selected works. Relevant original and/or published articles are welcome. See details in <a href="#call-for-papers">call for paper</a>. --><br> 
+<!-- <span style="color: red;">
 News (11/08): Poster selection is out !<br>
 Submission website is open <a href="https://cmt3.research.microsoft.com/WSCV2022/" target="_blank">here</a></span></b><br>
 <em>Remote access details will be added here close to the event.</em><br>
+ -->
+
+ <div class="live">
+  Workshop starts 25/08 @2pm Tunis time (GMT+1):<br>
+  <a href="https://us06web.zoom.us/j/84818502459?pwd=VXdoMTFPTGRPQmJYcFZLZUhMR1YxZz09">https://us06web.zoom.us/j/84818502459?pwd=VXdoMTFPTGRPQmJYcFZLZUhMR1YxZz09</a>
+ </div>
 </div>
 
 # Invited Speakers
@@ -160,9 +172,11 @@ Submission website is open <a href="https://cmt3.research.microsoft.com/WSCV2022
 </div>
 
 ## Program
-The hybrid workshop will be half-day on 25/08.<br>
-<!-- The program will be published soon.<br><br> -->
-<em>Remote access details will be added here close to the event.</em>
+ <div class="live">
+  Workshop starts 25/08 @2pm Tunis time (GMT+1):<br>
+  <a href="https://us06web.zoom.us/j/84818502459?pwd=VXdoMTFPTGRPQmJYcFZLZUhMR1YxZz09">https://us06web.zoom.us/j/84818502459?pwd=VXdoMTFPTGRPQmJYcFZLZUhMR1YxZz09</a>
+ </div>
+<br>
 
 <div class="program">
 <div class="entry start">
@@ -224,13 +238,13 @@ The hybrid workshop will be half-day on 25/08.<br>
     <div class="time">3:45pm</div>
     <div class="title">- Poster session &amp; Coffee break</div><br>
     <ul class="papers">
-      <li><span class="title">Deep Learning Architecture For Brain Vessel Segmentation</span>. <span class="authors">K. Iddrisu.</span></li>
-      <li><span class="title">Single-modality and joint fusion deep learning for diabetic retinopathy diagnosis</span>. <span class="authors">K. El-ateif.</span></li>
-      <li><span class="title">Co-attention Mechanism with Multi-Modal Factorized Bilinear Pooling for Medical Image Question Answering</span>. <span class="authors">V.-S. Mfogo, J. Fadugba, X. Chen, G. Gkioxari.</span></li>
-      <li><span class="title">AFRIGAN: African Fashion Style Generator using Generative Adversarial Networks (GANs)</span>. <span class="authors">M.-M. Salami, W. Oyewusi, O. Adekanmbi.</span></li>
-      <li><span class="title">Sign-to-Speech Model for Sign Language Understanding: A Case Study of Nigerian Sign Language</span>. <span class="authors">S. Kolawole.</span></li>
-      <li><span class="title">ATLAS: Universal Function Approximator for Memory Retention</span>. <span class="authors">H. Van Deventer.</span></li>
-      <li><span class="title">Application of Artificial Intelligence (AI) and Collective Intelligence (CI) for Diagnosis of Breast Cancer</span>. <span class="authors">A. Jimoh, A. Adeniran, M. Klein.</span></li>
+      <li><span class="title">Deep Learning Architecture For Brain Vessel Segmentation</span>. <span class="authors">K. Iddrisu.</span> <span class="links">[<a href="./posters/WSCV_1.pdf" target="_blank">poster</a>]</span></li>
+      <li><span class="title">Single-modality and joint fusion deep learning for diabetic retinopathy diagnosis</span>. <span class="authors">K. El-ateif.</span> <span class="links">[<a href="./posters/WSCV_2.pdf" target="_blank">poster</a>]</span></li>
+      <li><span class="title">Co-attention Mechanism with Multi-Modal Factorized Bilinear Pooling for Medical Image Question Answering</span>. <span class="authors">V.-S. Mfogo, J. Fadugba, X. Chen, G. Gkioxari.</span> <span class="links">[<a href="./posters/WSCV_3.pdf" target="_blank">poster</a>]</span></li>
+      <li><span class="title">AFRIGAN: African Fashion Style Generator using Generative Adversarial Networks (GANs)</span>. <span class="authors">M.-M. Salami, W. Oyewusi, O. Adekanmbi.</span> <span class="links">[<a href="./posters/WSCV_4.pdf" target="_blank">poster</a>]</span></li>
+      <li><span class="title">Sign-to-Speech Model for Sign Language Understanding: A Case Study of Nigerian Sign Language</span>. <span class="authors">S. Kolawole.</span> <span class="links">[<a href="./posters/WSCV_5.pdf" target="_blank">poster</a>]</span></li>
+      <li><span class="title">ATLAS: Universal Function Approximator for Memory Retention</span>. <span class="authors">H. Van Deventer.</span> <span class="links">[<a href="./posters/WSCV_6.pdf" target="_blank">poster</a>]</span></li>
+      <li><span class="title">Application of Artificial Intelligence (AI) and Collective Intelligence (CI) for Diagnosis of Breast Cancer</span>. <span class="authors">A. Jimoh, A. Adeniran, M. Klein.</span> <span class="links">[<a href="./posters/WSCV_7.pdf" target="_blank">poster</a>]</span></li>
     </ul>
   </div>
 </div>
