@@ -166,6 +166,7 @@ The hybrid workshop will be half-day on 25/08.<br>
 
 <div class="program">
 <div class="entry start">
+  <span style="color: rgb(200, 0, 0); font-weight: bold;">All times are local Tunis time (GMT+1).</span><br>
   <div class="time">2:00pm</div> - <b>Workshop start</b>
 </div>
 <div class="entry">
@@ -242,9 +243,9 @@ The hybrid workshop will be half-day on 25/08.<br>
   </div>
   <div class="details">
     <div class="time">4:30pm</div> - <a href="https://scholar.google.fr/citations?user=PXm1lPAAAAAJ" target="_blank">Gabriela Csurka</a>, Naver Labs Europe<br>
-    <div class="title">TBA</div>
-<!--     <a onclick="this.parentElement.getElementsByClassName('abstract')[0].style.display=this.parentElement.getElementsByClassName('abstract')[0].style.display!='block' ? 'block' : 'none';">[+] Abstract</a>
- -->    <div class="abstract"></div>
+    <div class="title">Learning from unlabeled data at NLE</div>
+    <a onclick="this.parentElement.getElementsByClassName('abstract')[0].style.display=this.parentElement.getElementsByClassName('abstract')[0].style.display!='block' ? 'block' : 'none';">[+] Abstract</a>
+    <div class="abstract">In this talk after a few words about Naver and Naver Labs,  I will shortly present a few recently published works from our lab related to Self-supervision such as MoCHi Mixing of Contrastive Hard Negatives and ICMLM (Image-conditioned Masked Language Modelling) and to continual Domain adaptation such as CDAML (Continual DA with Meta-Learning) and OASiS (Online Adaptation for Semantic Image Segmentation).</div>
   </div>
 </div>
 <div class="entry">
@@ -273,9 +274,9 @@ Finally, we show the scenario of not having any pixel-level information. The goa
   </div>
   <div class="details">
     <div class="time">5:45pm</div> - <a href="https://mysite.ku.edu.tr/fguney/" target="_blank">Fatma G&uuml;ney</a>, Koç University<br>
-    <div class="title">TBA</div>
-<!--     <a onclick="this.parentElement.getElementsByClassName('abstract')[0].style.display=this.parentElement.getElementsByClassName('abstract')[0].style.display!='block' ? 'block' : 'none';">[+] Abstract</a>
- -->    <div class="abstract"></div>
+    <div class="title">Predictive World Models in Autonomous Driving</div>
+    <a onclick="this.parentElement.getElementsByClassName('abstract')[0].style.display=this.parentElement.getElementsByClassName('abstract')[0].style.display!='block' ? 'block' : 'none';">[+] Abstract</a>
+    <div class="abstract">I'll talk about future prediction in video sequences. We propose to address the inherent uncertainty in future predictions with stochastic models. While most of the previous methods predict the future in the pixel space, we propose to predict the future also in the motion space to separately model appearance and motion history. We then extend our solution to real-world driving scenarios where the background moves according to the ego-motion of the vehicle. We predict the changes in the static part by modeling the structure and ego-motion. Conditioned on the static prediction, we predict the remaining changes in the dynamic part which correspond to independently moving objects. Finally, we propose to combine information from multiple cameras into a Bird’s Eye View (BEV) representation and predict the future in that compact representation. We efficiently learn the temporal dynamics in the BEV representation with a state space model. Our models outperform the previous methods on standard future frame prediction datasets MNIST, KTH, and BAIR but especially in real-world driving datasets KITTI, Cityscapes, and NuScenes.</div>
   </div>
 </div>
 <div class="entry end">
