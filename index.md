@@ -102,8 +102,7 @@ Submission website is open <a href="https://cmt3.research.microsoft.com/WSCV2022
  -->
 
  <div class="live">
-  Workshop starts 25/08 @2pm Tunis time (GMT+1):<br>
-  <a href="https://us06web.zoom.us/j/84818502459?pwd=VXdoMTFPTGRPQmJYcFZLZUhMR1YxZz09">https://us06web.zoom.us/j/84818502459?pwd=VXdoMTFPTGRPQmJYcFZLZUhMR1YxZz09</a>
+  Workshop recordings will be online soon.
  </div>
 </div>
 
@@ -173,8 +172,7 @@ Submission website is open <a href="https://cmt3.research.microsoft.com/WSCV2022
 
 ## Program
  <div class="live">
-  Workshop starts 25/08 @2pm Tunis time (GMT+1):<br>
-  <a href="https://us06web.zoom.us/j/84818502459?pwd=VXdoMTFPTGRPQmJYcFZLZUhMR1YxZz09">https://us06web.zoom.us/j/84818502459?pwd=VXdoMTFPTGRPQmJYcFZLZUhMR1YxZz09</a>
+  Workshop recordings will be online soon.
  </div>
 <br>
 
