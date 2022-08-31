@@ -84,13 +84,13 @@ layout: default
 }
 .live>a {
     background-image: url(pics/youtube-logo.png);
-    background-repeat-x: no-repeat;
+    background-repeat: no-repeat;
     padding-left: 120px;
     background-size: contain;
 }
 .entry a.video {
     background-image: url(pics/youtube-small-logo.png);
-    background-repeat-x: no-repeat;
+    background-repeat: no-repeat;
     padding-left: 25px;
     background-size: contain;
 }
