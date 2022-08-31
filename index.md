@@ -82,6 +82,18 @@ layout: default
     font-weight: bold;
     border-radius: 20px;
 }
+.live>a {
+    background-image: url(pics/youtube-logo.png);
+    background-repeat-x: no-repeat;
+    padding-left: 120px;
+    background-size: contain;
+}
+.entry a.video {
+    background-image: url(pics/youtube-small-logo.png);
+    background-repeat-x: no-repeat;
+    padding-left: 25px;
+    background-size: contain;
+}
 </style>
 
 # Overview
@@ -102,7 +114,8 @@ Submission website is open <a href="https://cmt3.research.microsoft.com/WSCV2022
  -->
 
  <div class="live">
-  Workshop recordings will be online soon.
+  The recording is available:<br>
+  <a href="https://www.youtube.com/watch?v=12bSyGYJkgA" target="_blank">Workshop on Weakly Supervised Computer-Vision</a>
  </div>
 </div>
 
@@ -172,7 +185,8 @@ Submission website is open <a href="https://cmt3.research.microsoft.com/WSCV2022
 
 ## Program
  <div class="live">
-  Workshop recordings will be online soon.
+  The recording is available:<br>
+  <a href="https://www.youtube.com/watch?v=12bSyGYJkgA" target="_blank">Workshop on Weakly Supervised Computer-Vision</a>
  </div>
 <br>
 
@@ -190,7 +204,7 @@ Submission website is open <a href="https://cmt3.research.microsoft.com/WSCV2022
   </div>
   <div class="details">
     <div class="time">2:00pm</div> - <a href="http://webia.lip6.fr/~cord/" target="_blank">Matthieu Cord</a>, Sorbonne Uni / Valeo.ai<br>
-    <div class="title">Vision Transformers</div>
+    <div class="title">Vision Transformers - <a class="video" href="https://www.youtube.com/watch?v=12bSyGYJkgA&t=373s" target="_blank">Video</a></div>
     <a onclick="this.parentElement.getElementsByClassName('abstract')[0].style.display=this.parentElement.getElementsByClassName('abstract')[0].style.display!='block' ? 'block' : 'none';">[+] Abstract</a>
     <div class="abstract">Originally proposed in natural language processing, transformers are attracting growing interest in computer vision, providing state-of-the-art results for tasks such as image classification or object detection.
     In this talk, I present the underlying motivation and the basic architecture of Vision Transformers (ViT). I detail their difference with classical convolution -based architectures for classification, and more general framework for different tasks in computer vision. I also present ViT pre-training with large multimodal language and vision datasets, for downstream tasks with few or zero-shot supervision.
@@ -206,7 +220,7 @@ Submission website is open <a href="https://cmt3.research.microsoft.com/WSCV2022
   </div>
   <div class="details">
     <div class="time">2:45pm</div> - <a href="https://umbertomichieli.github.io/" target="_blank">Umberto Michieli</a>, Samsung research<br>
-    <div class="title">Learning to Segment Images with Limited Data across Devices, Domains and Tasks</div>
+    <div class="title">Learning to Segment Images with Limited Data across Devices, Domains and Tasks - <a class="video" href="https://www.youtube.com/watch?v=12bSyGYJkgA&t=3786s" target="_blank">Video</a></div>
     <a onclick="this.parentElement.getElementsByClassName('abstract')[0].style.display=this.parentElement.getElementsByClassName('abstract')[0].style.display!='block' ? 'block' : 'none';">[+] Abstract</a>
     <div class="abstract">Dense prediction tasks, such as semantic segmentation, are nowadays tackled with data-hungry deep learning architectures. However, oftentimes only limited data is available. In this talk, we argue the need for versatility of deep neural architectures from various perspectives.<br>
     First, we discuss the federated learning (FL) paradigm to train deep architectures in a distributed setting with data available only at remote clients. We address non-i.i.d. distribution of samples among clients via 1) a naïve FL optimizer that is fair from the users' perspective, and 2) a prototype-guided FL optimizer that is evaluated also on FL segmentation benchmarks.<br>
@@ -224,7 +238,7 @@ Submission website is open <a href="https://cmt3.research.microsoft.com/WSCV2022
   </div>
   <div class="details">
     <div class="time">3:15pm</div> - <a href="https://sites.google.com/site/sileyeoba/" target="_blank">Sileye Ba</a>, L'Oréal<br>
-    <div class="title">Real-time Make Up Virtual-Try-On Through Deep Inverse Graphics</div>
+    <div class="title">Real-time Make Up Virtual-Try-On Through Deep Inverse Graphics - <a class="video" href="https://www.youtube.com/watch?v=12bSyGYJkgA&t=6225s" target="_blank">Video</a></div>
     <a onclick="this.parentElement.getElementsByClassName('abstract')[0].style.display=this.parentElement.getElementsByClassName('abstract')[0].style.display!='block' ? 'block' : 'none';">[+] Abstract</a>
     <div class="abstract">Augmented reality applications have rapidly spread across online retail platforms and social media, allowing consumers to virtually try-on a large variety of products, such as makeup, hair dying, or shoes. However, parametrizing a renderer to synthesize realistic images of a given product remains a challenging task that requires expert knowledge. While recent work has introduced neural rendering methods for virtual try-on from example images, current approaches are based on large generative models that cannot be used in real-time on mobile devices. This calls for a hybrid method that combines the advantages of computer graphics and neural rendering approaches. In this paper, we propose a novel framework based on deep learning to build a real-time inverse graphics encoder that learns to map a single example image into the parameter space of a given augmented reality rendering engine. Our method leverages self-supervised learning and does not require labeled training data, which makes it extendable to many virtual try-on applications. Furthermore, most augmented reality renderers are not differentiable in practice due to algorithmic choices or implementation constraints to reach real-time on portable devices. To relax the need for a graphics-based differentiable renderer in inverse graphics problems, we introduce a trainable imitator module. Our imitator is a generative network that learns to accurately reproduce the behavior of a given non-differentiable renderer. We propose a novel rendering sensitivity loss to train the imitator, which ensures that the network learns an accurate and continuous representation for each rendering parameter. Automatically learning a differentiable renderer, as proposed here, could be beneficial for various inverse graphics tasks. Our framework enables novel applications where consumers can virtually try-on a novel unknown product from an inspirational reference image on social media. It can also be used by computer graphics artists to automatically create realistic rendering from a reference product image.</div>
   </div>
@@ -255,7 +269,7 @@ Submission website is open <a href="https://cmt3.research.microsoft.com/WSCV2022
   </div>
   <div class="details">
     <div class="time">4:30pm</div> - <a href="https://scholar.google.fr/citations?user=PXm1lPAAAAAJ" target="_blank">Gabriela Csurka</a>, Naver Labs Europe<br>
-    <div class="title">Learning from unlabeled data at NLE</div>
+    <div class="title">Learning from unlabeled data at NLE - <a class="video" href="https://www.youtube.com/watch?v=12bSyGYJkgA&t=7858s" target="_blank">Video</a></div>
     <a onclick="this.parentElement.getElementsByClassName('abstract')[0].style.display=this.parentElement.getElementsByClassName('abstract')[0].style.display!='block' ? 'block' : 'none';">[+] Abstract</a>
     <div class="abstract">In this talk after a few words about Naver and Naver Labs,  I will shortly present a few recently published works from our lab related to Self-supervision such as MoCHi Mixing of Contrastive Hard Negatives and ICMLM (Image-conditioned Masked Language Modelling) and to continual Domain adaptation such as CDAML (Continual DA with Meta-Learning) and OASiS (Online Adaptation for Semantic Image Segmentation).</div>
   </div>
@@ -269,7 +283,7 @@ Submission website is open <a href="https://cmt3.research.microsoft.com/WSCV2022
   </div>
   <div class="details">
     <div class="time">5:15pm</div> - <a href="https://fcdl94.github.io/" target="_blank">Fabio Cermelli</a>, Politecnico di Torino<br>
-    <div class="title">Semantic Segmentation from Weakly and Partial Annotations</div>
+    <div class="title">Semantic Segmentation from Weakly and Partial Annotations - <a class="video" href="https://www.youtube.com/watch?v=12bSyGYJkgA&t=10232s" target="_blank">Video</a></div>
     <a onclick="this.parentElement.getElementsByClassName('abstract')[0].style.display=this.parentElement.getElementsByClassName('abstract')[0].style.display!='block' ? 'block' : 'none';">[+] Abstract</a>
     <div class="abstract">Due to the rise of deep learning and the accessibility of big human-annotated datasets, tremendous progress has been made in the fundamental computer vision task of semantic segmentation. However, because each pixel of the image needs to have a label, annotations are quite expensive. As a result, the annotation cost hinders the applications of semantic segmentation in the real world. In the presentation, we outline ways that significantly lower the cost by utilizing less expensive and more readily available annotations.<br>
 We first look into the use of partial annotations, where labels are only given for specific areas of the image. We begin with an incremental learning application, where the objective is to expand a model to learn new classes without forgetting and without being given annotations for existing classes. We present a straightforward adjustment of the cross-entropy loss to deal with this situation. The proposed losses are then extended to the point-and-scribble supervised segmentation, where only a small portion of the image's pixels are annotated.<br>
@@ -286,7 +300,7 @@ Finally, we show the scenario of not having any pixel-level information. The goa
   </div>
   <div class="details">
     <div class="time">5:45pm</div> - <a href="https://mysite.ku.edu.tr/fguney/" target="_blank">Fatma G&uuml;ney</a>, Koç University<br>
-    <div class="title">Predictive World Models in Autonomous Driving</div>
+    <div class="title">Predictive World Models in Autonomous Driving - <a class="video" href="https://www.youtube.com/watch?v=12bSyGYJkgA&t=11990s" target="_blank">Video</a></div>
     <a onclick="this.parentElement.getElementsByClassName('abstract')[0].style.display=this.parentElement.getElementsByClassName('abstract')[0].style.display!='block' ? 'block' : 'none';">[+] Abstract</a>
     <div class="abstract">I'll talk about future prediction in video sequences. We propose to address the inherent uncertainty in future predictions with stochastic models. While most of the previous methods predict the future in the pixel space, we propose to predict the future also in the motion space to separately model appearance and motion history. We then extend our solution to real-world driving scenarios where the background moves according to the ego-motion of the vehicle. We predict the changes in the static part by modeling the structure and ego-motion. Conditioned on the static prediction, we predict the remaining changes in the dynamic part which correspond to independently moving objects. Finally, we propose to combine information from multiple cameras into a Bird’s Eye View (BEV) representation and predict the future in that compact representation. We efficiently learn the temporal dynamics in the BEV representation with a state space model. Our models outperform the previous methods on standard future frame prediction datasets MNIST, KTH, and BAIR but especially in real-world driving datasets KITTI, Cityscapes, and NuScenes.</div>
   </div>
