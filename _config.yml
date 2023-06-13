@@ -1,19 +1,17 @@
 theme: jekyll-theme-cayman
 title: 'Weakly Supervised Computer Vision'
-description:
-- "workshop at the <a href='https://deeplearningindaba.com/2022/' target='_blank' style='text-decoration: underline; text-shadow: none;'>Deep Learning Indaba</a>"
-- August 25, 2022
-- Tunis, Tunisia and Online
 repository: xxx/my-github-projects
-buttons:
-  Overview: './#overview'
-  Invited Speakers: './#invited-speakers'
-  Program: './#program'
-  Organizers: './#organizers'
-  Call for Papers: './#call-for-papers'
-  Important Dates: './#important-workshop-dates'
+editions:
+  - 2023
+  - 2022
 github:
   is_project_page: false
 
 # Google Analytics
 google_analytics: G-0CG00X9EN0
+
+plugins:
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
