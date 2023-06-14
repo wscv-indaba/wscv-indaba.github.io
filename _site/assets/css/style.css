@@ -346,7 +346,7 @@ background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg
 .workshopdesc { text-align: justify; }
 
 .speakers { display: flex; flex-wrap: wrap; justify-content: space-evenly; }
-.speakers .speaker { width: 22.5%; text-align: center; margin-left: 2.5%; margin-right: 2.5%; }
+.speakers .speaker { width: 20%; text-align: center; margin-left: 2.5%; margin-right: 2.5%; }
 
 .organizers { display: flex; flex-wrap: wrap; justify-content: space-evenly; }
 .organizers .organizer { width: 15%; text-align: center; }
