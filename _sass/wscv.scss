@@ -324,3 +324,25 @@
     }
   }
 }
+
+.sponsor>img {
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.sponsor>.headline {
+    width: 78%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sponsor {
+    clear: both;
+    display: block;
+}
+
+/*
+.sponsor:hover {
+    background-color: rgb(100,100,100);
+}
+*/
