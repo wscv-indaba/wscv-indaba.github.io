@@ -376,11 +376,21 @@ background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg
 .program .entry.start, .program .entry.end { display: block; width: 100%; text-align: center; }
 .program .entry.start { border-bottom: 1px solid #7f7f7f; }
 .program .entry.end { border-top: 1px solid #7f7f7f; }
-.program .entry.poster { border: 1px solid gainsboro; border-radius: 15px; background-color: gainsboro; margin-top: 8pt; margin-bottom: 8pt; }
+.program .entry.lunch { display: block; border-radius: 10px; background: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) 10px, rgba(170, 170, 170, 0.2) 10px, rgba(170, 170, 170, 0.2) 20px); width: 100%; padding: 1em; text-align: center; }
+.program .entry.poster { border: 1px solid gainsboro; border-radius: 15px; /* margin-top: 8pt;
+margin-bottom: 8pt; */ padding: 1em 0em 1em 0em; }
 .program .entry.poster .title { display: inline; }
 .program .entry.poster .papers { list-style: decimal; margin-top: 5pt; }
 .program .entry.poster .papers li > .title { font-weight: bold; }
 .program .entry.poster .papers li > .authors { font-style: italic; }
+.program .entry.spotlight { border-radius: 15px; /* margin-top: 8pt;
+margin-bottom: 8pt; */ }
+.program .entry.spotlight .title { display: inline; }
+.program .entry.spotlight .papers { list-style: decimal; margin-top: 5pt; font-size: 9pt; }
+.program .entry.spotlight .papers li > .title { font-weight: bold; font-size: 10pt; }
+.program .entry.spotlight .papers li > .authors { font-style: italic; }
+.program .entry.awards { padding: 1em 0em 1em 0em; border-radius: 10px; border-radius: 15px; background-color: #ffe9af; margin-top: 8pt; margin-bottom: 8pt; }
+.program .entry.awards .title { display: inline; }
 
 .live { text-align: center; border: 3px solid #fa0000; font-weight: bold; border-radius: 20px; }
 

@@ -243,12 +243,20 @@
     border-top: 1px solid rgb(127, 127, 127);
   }
 
+  .entry.lunch{
+    display: block;
+    border-radius: 10px;
+    background: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) 10px, rgba(170, 170, 170, 0.2) 10px, rgba(170, 170, 170, 0.2) 20px);
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+  }
   .entry.poster{
     border: 1px solid rgb(220, 220, 220);
     border-radius: 15px;
-    background-color: rgb(220, 220, 220);
-    margin-top: 8pt;
-    margin-bottom: 8pt;
+    /* margin-top: 8pt;
+    margin-bottom: 8pt; */
+    padding: 1em 0em 1em 0em;
 
     .title{
       display: inline;
@@ -263,6 +271,41 @@
       li>.authors{
         font-style: italic;
       }
+    }
+  }
+  .entry.spotlight{
+    border-radius: 15px;
+
+    /* margin-top: 8pt;
+    margin-bottom: 8pt; */
+
+    .title{
+      display: inline;
+    }
+    .papers{
+      list-style: decimal;
+      margin-top: 5pt;
+      font-size: 9pt;
+
+      li>.title{
+        font-weight: bold;
+      font-size: 10pt;
+      }
+      li>.authors{
+        font-style: italic;
+      }
+    }
+  }
+  .entry.awards{
+    padding: 1em 0em 1em 0em;
+    border-radius: 10px;
+    border-radius: 15px;
+    background-color: rgb(255, 233, 175);
+    margin-top: 8pt;
+    margin-bottom: 8pt;
+
+    .title{
+      display: inline;
     }
   }
 }

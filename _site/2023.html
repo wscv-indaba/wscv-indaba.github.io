@@ -28,7 +28,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#731578">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/assets/css/style.css?v=a885ef16aadc16420e066c7c6796b7a640e8f860">
+    <link rel="stylesheet" href="/assets/css/style.css?v=c6938fb4febcc3180ef8355b2d9d30dbe9704803">
     
     <meta name="google-site-verification" content="EaOBAFJS2oZAhYIqcnG58x5_a5rmawbEfR2m7fBQRSk" />
 
@@ -143,8 +143,129 @@ To understand scenes from images, video or 3D data, computer vision often relies
 </div>
 
 <h2 id="program">Program</h2>
-<p><strong>The workshop will be full-day September 8th, with speaker talks, a poster session and a panel discussion. Tentative agenda:</strong><br />
-<img src="/assets/imgs/program_wip.png" /></p>
+<div class="program">
+<div class="entry start">
+  <span style="color: rgb(200, 0, 0); font-weight: bold;">Times are local Ghana time (GMT).</span><br />
+  <div class="time">11:00am</div> - <b>Workshop start</b>
+</div>
+<div class="entry">
+  <div class="speaker">
+  </div>
+  <div class="details">
+    <div class="time">11:00am</div> - Opening remarks. <a href="https://team.inria.fr/rits/membres/raoul-de-charette/" target="_blank">Raoul de Charette</a>, Inria<br />
+  </div>
+</div>
+<div class="entry">
+  <div class="speaker">
+    <a href="https://stelat.eu/" target="_blank">
+    <img alt="Stéphane Lathuilière" src="/assets/imgs/people/stephane_lathuiliere.jpg" />
+    <br />
+    </a>
+  </div>
+  <div class="details">
+    <div class="time">11:10am</div> - <a href="https://stelat.eu/" target="_blank">Stéphane Lathuilière</a>, Telecom Paris<br />
+    <div class="title">Data Frugality in Image Generation, Image Generation for Data Frugality</div>
+    <a onclick="this.parentElement.getElementsByClassName('abstract')[0].style.display=this.parentElement.getElementsByClassName('abstract')[0].style.display!='block' ? 'block' : 'none';">[+] Abstract</a>
+    <div class="abstract">In this talk, we aim to showcase recent developments that demonstrate how image generation tasks can now be addressed with only a few examples. We'll explain how image synthesis models conditioned on semantic maps can be trained effectively using a small set of samples through a transfer learning approach. Next, we'll explore how recent text-conditioned diffusion models go even further, enabling semantic image synthesis in a zero-shot manner. <br />Furthermore, we'll delve into the potential of deep image-generation techniques to facilitate learning in perception tasks with minimal training data. Specifically, we'll investigate how a semantic segmentation model can be adapted from one visual domain to another using just a single unlabeled sample. This adaptation is achieved through leveraging pre-trained text-to-image models. While earlier methods relied on style transfer for such adaptations, we'll illustrate how text-to-image diffusion models can generate synthetic target datasets that replicate real-world scenes and styles. This method allows guiding image generation towards specific concepts while retaining spatial context from a single training image.</div>
+  </div>
+</div>
+<div class="entry">
+  <div class="speaker">
+    <a href="https://www.mohamed-elhoseiny.com/" target="_blank">
+    <img alt="Mohamed H. Elhoseiny" src="/assets/imgs/people/mohamed-h-elhoseiny.jpg" />
+    <br />
+    </a>
+  </div>
+  <div class="details">
+    <div class="time">12:00pm</div> - <a href="https://www.mohamed-elhoseiny.com/" target="_blank">Mohamed H. Elhoseiny</a>, KAUST<br />
+    <div class="title">Imaginative Vision Language Models: Towards human-level imaginative AI skills transforming species discovery, content creation, self-driving cars, and Emotional Health / Health Care</div>
+    <a onclick="this.parentElement.getElementsByClassName('abstract')[0].style.display=this.parentElement.getElementsByClassName('abstract')[0].style.display!='block' ? 'block' : 'none';">[+] Abstract</a>
+    <div class="abstract">Most existing AI learning methods can be categorized into supervised, semi-supervised, and unsupervised methods. These approaches rely on defining empirical risks or losses on the provided labeled and/or unlabeled data. Beyond extracting learning signals from labeled/unlabeled training data, we will reflect in this talk on a class of methods that can learn beyond the vocabulary that was trained on and can compose or create novel concepts. Specifically, we address the question of how these AI skills may assist species discovery, content creation, self-driving cars, emotional health, and more. We refer to this class of techniques as imagination AI methods, and we will dive into how we developed several approaches to build machine learning methods that can See, Create, Drive, and Feel. See: recognize unseen visual concepts by imaginative learning signals and how that may extend in a continual setting where seen and unseen classes change dynamically. Create: generate novel art and fashion by creativity losses. Drive: improve trajectory forecasting for autonomous driving by modeling hallucinative driving intents. Feel: generate emotional descriptions of visual art that are metaphoric and go beyond grounded descriptions. Feel: generate emotional descriptions of visual art that are metaphoric and go beyond grounded descriptions, and how to build these AI systems to be more inclusive of multiple cultures. I will also conclude by pointing out future directions where imaginative AI may help develop better assistive technology for multicultural and more inclusive metaverse, emotional health, and drug discovery.</div>
+  </div>
+</div>
+<div class="entry lunch">
+  🍽️ Lunch break 🍽️
+</div>
+<div class="entry">
+  <div class="speaker">
+    <a href="https://scholar.google.com/citations?user=eiB0s-kAAAAJ" target="_blank">
+    <img alt="Mathilde Caron" src="/assets/imgs/people/mathilde_caron.jpg" />
+    <br />
+    </a>
+  </div>
+  <div class="details">
+    <div class="time">2:00pm</div> - <a href="https://scholar.google.com/citations?user=eiB0s-kAAAAJ" target="_blank">Mathilde Caron</a>, Google<br />
+    <div class="title">Large-scale and Efficient Visual Understanding with Transformers</div>
+    <a onclick="this.parentElement.getElementsByClassName('abstract')[0].style.display=this.parentElement.getElementsByClassName('abstract')[0].style.display!='block' ? 'block' : 'none';">[+] Abstract</a>
+    <div class="abstract">I will present various advances that we have made in developing accurate and scalable models for visual and multi-modal understanding, requiring few annotations. My presentation will include:<br />
+    <a href="https://arxiv.org/abs/2104.14294" target="_blank">DINO</a>: We expose our observations from adapting self-supervised learning to vision transformer:  first, self-supervised ViT features contain explicit information about the semantic segmentation of an image. Second, these features can be easily adapted to downstream task with minimal adaptation and are for instance excellent k-NN classifiers.<br />
+    <a href="https://arxiv.org/abs/2304.06708" target="_blank">Verbs in action</a>: Current video models and benchmarks have a single frame/object/noun bias. We tackle this problem by bringing together a set of benchmarks that focus more on "verb" or "temporal" understanding and use LLMs to create harder text pairs for contrastive pretraining that forces video models to pay more attention to verbs. <br />
+    <a href="https://arxiv.org/abs/2306.07196" target="_blank">RECO</a>: We propose to equip existing foundation models with the ability to refine their embedding with cross-modal retrieved information from an external memory at inference time, which greatly improves zero-shot predictions on fine-grained recognition tasks.</div>
+  </div>
+</div>
+<div class="entry">
+  <div class="speaker">
+    <a href="https://people.epfl.ch/mathieu.salzmann" target="_blank">
+    <img alt="Mathieu Salzmann" src="/assets/imgs/people/mathieu_salzmann.jpg" />
+    <br />
+    </a>
+  </div>
+  <div class="details">
+    <div class="time">2:50pm</div> - <a href="https://people.epfl.ch/mathieu.salzmann" target="_blank">Mathieu Salzmann</a>, EPFL<br />
+    <div class="title">Generalizing to Unseen Objects without Re-training</div>
+    <a onclick="this.parentElement.getElementsByClassName('abstract')[0].style.display=this.parentElement.getElementsByClassName('abstract')[0].style.display!='block' ? 'block' : 'none';">[+] Abstract</a>
+    <div class="abstract">In many practical situations, the objects that will be observed when deploying a deep learning model may differ from those seen during training. This is for example the case in automated driving, where obstacles on the road can be of any kind, significantly differing from the standard categories used to train an object detector. This also occurs in the context of space debris capture, which relies on estimating the 6D pose of debris that may differ from the training ones. In such situations, no annotations are provided for the new objects and re-training or fine-tuning the model is often not practical. Nevertheless, such unseen objects must be handled to ensure operation safety. In this talk, I will present our recent progress towards training deep learning models able to generalize to new object categories at test time. I will focus on the scenarios of road obstacle detection and 6D object pose estimation, and will show that, in both cases, generalization can be facilitated by learning to compare images.</div>
+  </div>
+</div>
+<div class="entry spotlight">
+  <div class="speaker">
+  </div>
+  <div class="details">
+    <div class="time">3:40pm</div>
+    <div class="title">- Spotlights presentations</div><br />
+    <ul class="papers">
+      <li><span class="title">Mirror-Aware Neural Humans</span> <span class="authors">Daniel Ajisafe, James Tang, Shih-Yang Su, Bastian Wandt, Helge Rhodin</span></li>
+      <li><span class="title">COVID-Attention: Efficient COVID19 Detection using Pre-trained Deep Models based on Vision Transformers and X-ray Images</span> <span class="authors">Imed-eddine Haouli, Walid Hariri, Hassina Seridi-Bouchelaghem</span></li>
+      <li><span class="title">3D reconstructions of brain from MRI scans using neural radiance fields</span> <span class="authors">Khadija Iddrisu, Sylwia Malec, Alessandro Crimi</span></li>
+      <li><span class="title">Mobile-Based Early Skin Disease Diagnosis for Melanin-Rich Skins</span> <span class="authors">Mathews Jahnical Jere</span></li>
+      <li><span class="title">Hybrid Optimization of Coccidiosis Chicken Disease Prediction, Detection and Prevention Using Deep Learning Frameworks</span> <span class="authors">David Wairimu</span></li>
+    </ul>
+  </div>
+</div>
+<div class="entry poster">
+  <div class="speaker">
+  </div>
+  <div class="details">
+    <div class="time">4:00pm</div>
+    <div class="title">👁️🗣️🤝🏾 Poster sessions + ☕ Coffee Break</div><br />
+  </div>
+</div>
+<div class="entry">
+  <div class="speaker">
+    <a href="https://imagine.enpc.fr/~varolg/" target="_blank">
+    <img alt="Gül Varol" src="/assets/imgs/people/gul_varol.jpg" />
+    <br />
+    </a>
+  </div>
+  <div class="details">
+    <div class="time">4:50pm</div> - <a href="https://imagine.enpc.fr/~varolg/" target="_blank">Gül Varol</a>, École des Ponts<br />
+    <div class="title">Automatic annotation of open-vocabulary sign language videos</div>
+    <a onclick="this.parentElement.getElementsByClassName('abstract')[0].style.display=this.parentElement.getElementsByClassName('abstract')[0].style.display!='block' ? 'block' : 'none';">[+] Abstract</a>
+    <div class="abstract">Research on sign language technologies has suffered from the lack of data to train machine learning models. This talk will describe our recent efforts on scalable approaches to automatically annotate continuous sign language videos with the goal of building a large-scale dataset. In particular, we leverage weakly-aligned subtitles from sign interpreted broadcast footage. These subtitles provide us candidate keywords to search and localise individual signs. To this end, we develop several sign spotting techniques: (i) using mouthing cues at the lip region, (ii) looking up videos from sign language dictionaries, and (iii) exploring the sign localisation that emerges from the attention mechanism of a sequence prediction model. We further tackle the subtitle alignment problem to improve their synchronization with signing. With these methods, we build the BBC-Oxford British Sign Language Dataset (BOBSL), continuous signing videos of more than a thousand hours, containing millions of sign instance annotations from a large vocabulary. More information about the dataset can be found at <a href="https://arxiv.org/abs/2111.03635" target="_blank">https://arxiv.org/abs/2111.03635</a></div>
+  </div>
+</div>
+<div class="entry awards">
+  <div class="speaker">
+  </div>
+  <div class="details">
+    <div class="time">5:40pm</div>
+    <div class="title">- Panel Closing Remarks + 🏆 Announcement of the Awards 🏆</div><br />
+  </div>
+</div>
+<div class="entry end">
+  <div class="time">6:00pm</div> - <b>Workshop end</b>
+</div>
+</div>
 
 <h2 id="call-for-papers">Call for Papers</h2>
 
